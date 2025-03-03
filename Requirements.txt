@@ -1,0 +1,7 @@
+Required packages:
+- react
+- react-router-dom
+- axios
+- tailwindcss
+- framer-motion
+- lucid-react
