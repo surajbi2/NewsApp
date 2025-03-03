@@ -7,7 +7,7 @@ export const fetchNews = async ({ pageParam = 1 }) => {
   const response = await axios.get(`${BASE_URL}/top-headlines`, {
     params: {
       country: "us",
-      apiKey: API_KEY,
+      apiKey: API_KEY, //your api key should be stored in .env file
       page: pageParam,
       pageSize: 10, //number of articles to be loaded
     },
